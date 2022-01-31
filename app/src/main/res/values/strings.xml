@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="saturday">Saturday</string>
+    <string name="friday">Friday</string>
+    <string name="welcome">Welcome</string>
+    <string name="monday_timetable_is_available">Monday TimeTable is Available</string>
+    <string name="todo">TODO</string>
+    <string name="back">back</string>
+
+    <string name="AddMonTime" />
+    <string name="enter_time">Enter Time</string>
+    <string name="hr">Hr</string>
+    <string name="hour">Hour</string>
+    <string name="minutes">Minutes</string>
+    <string name="min">Min</string>
+</resources>

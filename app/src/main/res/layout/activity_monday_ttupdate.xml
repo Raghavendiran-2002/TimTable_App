@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MondayTTupdate">
+
+    <EditText
+        android:id="@+id/Monday_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="2"
+        android:gravity="center"
+        android:hint="@string/hr"
+        android:inputType="time"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:id="@+id/hour_label"
+        android:layout_width="76dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="244dp"
+        android:gravity="center"
+        android:text="@string/hour"
+        app:layout_constraintEnd_toStartOf="@+id/Monday_hour"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minutes_Label"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/minutes"
+        app:layout_constraintEnd_toStartOf="@+id/Monday_minutes"
+        app:layout_constraintTop_toBottomOf="@+id/hour_label" />
+
+    <EditText
+        android:id="@+id/Monday_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="@string/min"
+        android:inputType="time"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Monday_hour"
+        app:layout_constraintVertical_bias="0.046"
+        android:autofillHints="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
