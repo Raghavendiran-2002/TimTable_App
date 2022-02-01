@@ -17,4 +17,8 @@
     <string name="hour">Hour</string>
     <string name="minutes">Minutes</string>
     <string name="min">Min</string>
+    <string name="update">Update</string>
+    <string name="subject">Subject</string>
+    <string name="enter_subject">Enter Subject</string>
+
 </resources>

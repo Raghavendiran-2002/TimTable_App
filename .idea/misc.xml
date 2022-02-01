@@ -5,10 +5,10 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/activity_monday_tt.xml" value="0.3591485507246377" />
-        <entry key="app/src/main/res/layout/activity_monday_tt2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_monday_tt2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_monday_ttupdate.xml" value="0.3591485507246377" />
         <entry key="app/src/main/res/layout/activity_saturday_tt.xml" value="0.1752786220871327" />
-        <entry key="app/src/main/res/layout/activity_tuesday_tt.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout/activity_tuesday_tt.xml" value="0.25" />
       </map>
     </option>
   </component>

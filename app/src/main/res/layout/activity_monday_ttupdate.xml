@@ -41,10 +41,13 @@
         android:id="@+id/minutes_Label"
         android:layout_width="77dp"
         android:layout_height="39dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
+        android:gravity="center"
         android:text="@string/minutes"
         app:layout_constraintEnd_toStartOf="@+id/Monday_minutes"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hour_label" />
 
     <EditText
@@ -64,5 +67,44 @@
         app:layout_constraintTop_toBottomOf="@+id/Monday_hour"
         app:layout_constraintVertical_bias="0.046"
         android:autofillHints="" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Monday_minutes"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/period_label"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="@string/subject"
+        app:layout_constraintBottom_toTopOf="@+id/hour_label"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Mon_Subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/enter_subject"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/Monday_hour"
+        app:layout_constraintStart_toEndOf="@+id/period_label" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
